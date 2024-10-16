@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits List Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #2c3e50;
+        }
+
+        /* Styling for Unordered List */
+        .unordered-list {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin-bottom: 40px;
+        }
+
+        .unordered-list ul {
+            list-style-type: disc; /* Default disc bullets */
+            padding-left: 20px;
+        }
+
+        /* Styling for Ordered List */
+        .ordered-list {
+            background-color: #e8f8f5;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin-bottom: 40px;
+        }
+
+        .ordered-list ol {
+            list-style-type: decimal; /* Default numbering */
+            padding-left: 20px;
+        }
+
+        /* Styling for Nested Lists */
+        .nested-list {
+            background-color: #fef9e7;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .nested-list ul, .nested-list ol {
+            padding-left: 20px;
+        }
+
+        /* Styling for Description List */
+        .description-list {
+            background-color: #fdebd0;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin-bottom: 40px;
+        }
+
+        .description-list dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .description-list dd {
+            margin: 0 0 10px 20px;
+        }
+
+        /* General List Styling */
+        ul, ol {
+            line-height: 1.6;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Fruits List Project</h1>
+
+    <!-- Unordered List Section -->
+    <section class="unordered-list">
+        <h2>Unordered List of Fruits</h2>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+            <li>Date</li>
+            <li>Elderberry</li>
+        </ul>
+    </section>
+
+    <!-- Ordered List Section -->
+    <section class="ordered-list">
+        <h2>Ordered List: Top 5 Favorite Fruits</h2>
+        <ol>
+            <li>Mango</li>
+            <li>Strawberry</li>
+            <li>Pineapple</li>
+            <li>Blueberry</li>
+            <li>Watermelon</li>
+        </ol>
+    </section>
+
+    <!-- Nested Lists Section -->
+    <section class="nested-list">
+        <h2>Nested Lists: Fruits Categories</h2>
+        <ul>
+            <li>Citrus Fruits
+                <ol>
+                    <li>Orange</li>
+                    <li>Lemon</li>
+                    <li>Lime</li>
+                </ol>
+            </li>
+            <li>Berries
+                <ul>
+                    <li>Strawberry</li>
+                    <li>Blueberry</li>
+                    <li>Raspberry</li>
+                </ul>
+            </li>
+            <li>Tropical Fruits
+                <ol>
+                    <li>Mango</li>
+                    <li>Pineapple</li>
+                    <li>Banana</li>
+                </ol>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Description List Section -->
+    <section class="description-list">
+        <h2>Description List: Fruits and Their Descriptions</h2>
+        <dl>
+            <dt>Apple</dt>
+            <dd>A sweet, edible fruit produced by an apple tree.</dd>
+
+            <dt>Banana</dt>
+            <dd>A long, curved fruit with a yellow skin and soft, sweet flesh.</dd>
+
+            <dt>Cherry</dt>
+            <dd>A small, round stone fruit that is typically bright or dark red.</dd>
+
+            <dt>Date</dt>
+            <dd>A sweet fruit from the date palm, often eaten dried.</dd>
+
+            <dt>Elderberry</dt>
+            <dd>A small, dark berry used in syrups, jams, and wines.</dd>
+        </dl>
+    </section>
+
+</body>
+</html>
